@@ -7,11 +7,18 @@ To write a program for error Detection using Cyclic Redundancy Check (CRC-16 bit
 2.	C++ compiler
 
 # ALGORITHM:
-1] Open code blocks application and create a new file. 2] After creating the file type the codes.
-3] After typing the codes save the file using the .c extension in the desired location. 4] Run the program using build and run.
+1] Open code blocks application and create a new file. 
+
+2] After creating the file type the codes.
+
+3] After typing the codes save the file using the .c extension in the desired location.
+
+4] Run the program using build and run.
+
 5] Give polynomial values and the generated polynomial is obtained, and by other means arraive	at the desired output which uses the error detection technique. 6] Thus the output polynomial is obtained through this technique.
 
 # PROGRAM:
+```
 #include<stdio.h> #include<string.h> #define Nstrlen(g) char t[128],cs[128],g[]="111";
 int a,e,c; voidxor()
 {
@@ -49,8 +56,10 @@ for(e=0;(e<N-1)&&(cs[e]!='1');e++) if(e<N-1)
 printf("Error detected"); else
 printf("no error detected");
 }
+```
  
 # OUTPUT:
+<img width="892" height="469" alt="image" src="https://github.com/user-attachments/assets/ae032c41-7bd3-4447-a8c1-bca3419d8522" />
 
 
 # RESULT:
